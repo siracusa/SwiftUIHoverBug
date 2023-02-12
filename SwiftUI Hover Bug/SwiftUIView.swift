@@ -8,7 +8,7 @@
 import SwiftUI
 import Foundation
 
-let windowColor = Color.init(nsColor: .windowBackgroundColor)
+let windowColor = Color(nsColor: .windowBackgroundColor)
 
 struct SwiftUIView : View {
     @State var isHovered : Bool = false

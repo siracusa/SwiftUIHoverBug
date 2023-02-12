@@ -24,9 +24,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
         )
 
         window.backgroundColor = .clear
-        window.isOpaque = false
         window.contentView = NSHostingView(rootView: self.view)
-        window.level = .floating
 
         window.center()
         window.orderFront(self)
